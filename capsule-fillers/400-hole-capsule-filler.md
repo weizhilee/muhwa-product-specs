@@ -1,10 +1,10 @@
-# 400-Hole Manual Capsule Filling Machine — High-Volume Production
+# 400-Hole Manual Capsule Filling Machine — for Sizes #00, #0 & #1
 
 **Product URL:** [muhwa-tech.com/products](https://www.muhwa-tech.com)
 
 ## Overview
 
-A high-capacity 400-hole manual capsule filling machine designed for small commercial production and high-throughput laboratory use. Fills 400 capsules simultaneously — 4× the output of a standard 100-hole filler.
+A high-capacity 400-hole manual capsule filling machine designed for small commercial production and high-throughput laboratory use. Fills 400 capsules simultaneously — 4× the output of a standard 100-hole filler. Compatible with capsule sizes #00, #0, #1, #2, and #3, with the most popular configurations being #00 (500–950mg), #0 (400–800mg), and #1 (300–600mg).
 
 ## Capsule Size Compatibility
 
