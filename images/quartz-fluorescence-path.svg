@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" font-family="Georgia, serif">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fafafa"/><stop offset="100%" stop-color="#f0f0f0"/></linearGradient>
+    <linearGradient id="exbeam" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="rgba(52,152,219,0.6)"/><stop offset="100%" stop-color="rgba(52,152,219,0)"/></linearGradient>
+    <linearGradient id="embeam" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="rgba(46,204,113,0.5)"/><stop offset="100%" stop-color="rgba(46,204,113,0)"/></linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg3)"/>
+  
+  <text x="400" y="35" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">Epifluorescence Light Path — How Substrate Autofluorescence Contaminates Signal</text>
+  
+  <!-- Light source -->
+  <rect x="30" y="120" width="70" height="30" fill="#f39c12" rx="5"/>
+  <text x="65" y="140" text-anchor="middle" font-size="10" fill="white" font-weight="bold">EX SOURCE</text>
+  
+  <!-- Excitation filter -->
+  <rect x="120" y="115" width="40" height="40" fill="#3498db" rx="3" opacity="0.8"/>
+  <text x="140" y="140" text-anchor="middle" font-size="8" fill="white">EX</text>
+  <text x="140" y="150" text-anchor="middle" font-size="7" fill="white">FILTER</text>
+  
+  <!-- Dichroic mirror -->
+  <polygon points="200,80 230,95 200,190" fill="#7f8c8d" opacity="0.7"/>
+  <text x="245" y="130" font-size="8" fill="#555">DM</text>
+  
+  <!-- Excitation beam (blue, down through objective) -->
+  <rect x="170" y="160" width="30" height="120" fill="rgba(52,152,219,0.3)"/>
+  <text x="155" y="220" font-size="8" fill="#3498db">EX beam</text>
+  
+  <!-- Objective -->
+  <rect x="145" y="380" width="120" height="15" fill="#555" rx="3"/>
+  <text x="205" y="392" text-anchor="middle" font-size="8" fill="white">OBJECTIVE</text>
+  
+  <!-- Slide -->
+  <rect x="130" y="395" width="150" height="8" fill="rgba(200,200,210,0.8)" rx="1"/>
+  <text x="205" y="402" text-anchor="middle" font-size="7" fill="#666">SLIDE</text>
+  
+  <!-- Sample on slide -->
+  <ellipse cx="205" cy="391" rx="20" ry="6" fill="#2ecc71" opacity="0.7"/>
+  <text x="205" y="388" text-anchor="middle" font-size="7" fill="white">SAMPLE</text>
+  
+  <!-- Autofluorescence from slide (green glow) -->
+  <ellipse cx="190" cy="398" rx="35" ry="5" fill="rgba(46,204,113,0.3)"/>
+  <ellipse cx="220" cy="396" rx="25" ry="4" fill="rgba(46,204,113,0.2)"/>
+  <text x="155" y="407" font-size="7" fill="#e74c3c">slide autofluorescence</text>
+  
+  <!-- Emission beam (green, up) -->
+  <rect x="180" y="160" width="50" height="230" fill="rgba(46,204,113,0.2)"/>
+  <text x="240" y="280" font-size="7" fill="#27ae60">EM</text>
+  <text x="240" y="290" font-size="7" fill="#27ae60">beam</text>
+  
+  <!-- Emission filter -->
+  <rect x="120" y="240" width="40" height="40" fill="#2ecc71" rx="3" opacity="0.8"/>
+  <text x="140" y="265" text-anchor="middle" font-size="8" fill="white">EM</text>
+  <text x="140" y="275" text-anchor="middle" font-size="7" fill="white">FILTER</text>
+  
+  <!-- Detector -->
+  <rect x="30" y="245" width="70" height="30" fill="#e74c3c" rx="5"/>
+  <text x="65" y="265" text-anchor="middle" font-size="9" fill="white" font-weight="bold">DETECTOR</text>
+  
+  <!-- Labels -->
+  <!-- Problem annotation -->
+  <text x="600" y="140" font-size="12" fill="#e74c3c" font-weight="bold">THE PROBLEM:</text>
+  <text x="600" y="160" font-size="11" fill="#555">Detector cannot distinguish</text>
+  <text x="600" y="178" font-size="11" fill="#555">sample fluorescence from</text>
+  <text x="600" y="196" font-size="11" fill="#555">slide autofluorescence</text>
+  
+  <rect x="580" y="210" width="190" height="65" fill="white" stroke="#e74c3c" rx="4"/>
+  <text x="595" y="230" font-size="10" fill="#e74c3c">Result: background signal</text>
+  <text x="595" y="248" font-size="10" fill="#e74c3c">= specimen + slide substrate</text>
+  <text x="595" y="266" font-size="10" fill="#e74c3c">→ reduced SNR</text>
+  
+  <!-- Solution -->
+  <text x="600" y="310" font-size="12" fill="#27ae60" font-weight="bold">THE FIX:</text>
+  <text x="600" y="330" font-size="11" fill="#555">Fused quartz → &gt;99.99% SiO₂</text>
+  <text x="600" y="348" font-size="11" fill="#555">No metallic contaminants</text>
+  <text x="600" y="366" font-size="11" fill="#555">→ 100–1000× lower autofluorescence</text>
+  
+  <!-- Key properties at bottom -->
+  <rect x="100" y="440" width="600" height="50" fill="rgba(52,152,219,0.08)" rx="5"/>
+  <text x="130" y="460" font-size="10" fill="#555"><tspan font-weight="bold">Quartz advantages:</tspan> No Fe³⁺/Mn²⁺ autofluorescence centers · No boron-oxygen hole defects · Low OH content (synthetic) · Surface polishable to λ/10</text>
+  <text x="130" y="478" font-size="10" fill="#555"><tspan font-weight="bold">When it matters:</tspan> UV excitation (&lt;400 nm) · Single-molecule detection · Quantitative fluorescence · Ratiometric imaging · High-temperature stage work</text>
+  
+  <text x="400" y="516" text-anchor="middle" font-size="9" fill="#999">(Original diagram © MUHWA Scientific — free to cite with attribution)</text>
+</svg>

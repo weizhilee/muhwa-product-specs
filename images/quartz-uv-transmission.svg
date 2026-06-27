@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Georgia, serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fafafa"/><stop offset="100%" stop-color="#f0f0f0"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">UV-VIS Transmission: Fused Quartz vs Borosilicate vs Soda-Lime Glass</text>
+  <text x="400" y="60" text-anchor="middle" font-size="13" fill="#666">1 mm thickness — data compiled from manufacturer specifications</text>
+  
+  <!-- Grid -->
+  <g stroke="#ddd" stroke-width="0.5">
+    <line x1="100" y1="80" x2="100" y2="440"/>
+    <line x1="100" y1="440" x2="750" y2="440"/>
+    <!-- Horizontal grid -->
+    <line x1="100" y1="380" x2="750" y2="380"/>
+    <line x1="100" y1="320" x2="750" y2="320"/>
+    <line x1="100" y1="260" x2="750" y2="260"/>
+    <line x1="100" y1="200" x2="750" y2="200"/>
+    <line x1="100" y1="140" x2="750" y2="140"/>
+    <line x1="100" y1="80" x2="750" y2="80"/>
+  </g>
+  
+  <!-- Y-axis labels -->
+  <text x="90" y="444" text-anchor="end" font-size="12" fill="#555">0</text>
+  <text x="90" y="384" text-anchor="end" font-size="12" fill="#555">20</text>
+  <text x="90" y="324" text-anchor="end" font-size="12" fill="#555">40</text>
+  <text x="90" y="264" text-anchor="end" font-size="12" fill="#555">60</text>
+  <text x="90" y="204" text-anchor="end" font-size="12" fill="#555">80</text>
+  <text x="90" y="144" text-anchor="end" font-size="12" fill="#555">100</text>
+  <text x="50" y="260" text-anchor="middle" font-size="12" fill="#555" transform="rotate(-90,50,260)">Transmission (%)</text>
+  
+  <!-- X-axis labels -->
+  <text x="100" y="460" text-anchor="middle" font-size="12" fill="#555">200</text>
+  <text x="230" y="460" text-anchor="middle" font-size="12" fill="#555">300</text>
+  <text x="360" y="460" text-anchor="middle" font-size="12" fill="#555">400</text>
+  <text x="490" y="460" text-anchor="middle" font-size="12" fill="#555">500</text>
+  <text x="620" y="460" text-anchor="middle" font-size="12" fill="#555">600</text>
+  <text x="750" y="460" text-anchor="middle" font-size="12" fill="#555">700</text>
+  <text x="425" y="482" text-anchor="middle" font-size="12" fill="#555">Wavelength (nm)</text>
+  
+  <!-- DAPI/Hoechst band -->
+  <rect x="308" y="80" width="73" height="360" fill="rgba(100,149,237,0.1)" stroke="none"/>
+  <text x="344" y="95" text-anchor="middle" font-size="10" fill="royalblue">DAPI/Hoechst</text>
+  <text x="344" y="107" text-anchor="middle" font-size="10" fill="royalblue">excitation</text>
+  
+  <!-- Fused Quartz curve -->
+  <polyline points="100,404 140,385 180,362 220,338 260,315 300,292 340,274 380,256 420,243 460,232 500,226 540,220 580,218 620,216 660,214 700,214 740,213 750,212" fill="none" stroke="#c0392b" stroke-width="3"/>
+  
+  <!-- Borosilicate curve -->
+  <polyline points="100,420 140,410 180,395 220,378 260,355 300,326 340,294 380,268 420,246 460,234 500,226 540,222 580,218 620,216 660,214 700,214 740,213 750,212" fill="none" stroke="#e67e22" stroke-width="2.5" stroke-dasharray="8,3"/>
+  
+  <!-- Soda-lime curve -->
+  <polyline points="100,432 140,428 180,420 220,410 260,394 300,372 340,342 380,308 420,278 460,256 500,240 540,230 580,224 620,220 660,216 700,214 740,213 750,212" fill="none" stroke="#3498db" stroke-width="2.5" stroke-dasharray="4,6"/>
+  
+  <!-- Legend -->
+  <rect x="560" y="90" width="175" height="85" fill="white" stroke="#ccc" rx="4"/>
+  <line x1="570" y1="108" x2="600" y2="108" stroke="#c0392b" stroke-width="3"/>
+  <text x="608" y="112" font-size="12" fill="#333">Fused Quartz</text>
+  <line x1="570" y1="132" x2="600" y2="132" stroke="#e67e22" stroke-width="2.5" stroke-dasharray="8,3"/>
+  <text x="608" y="136" font-size="12" fill="#333">Borosilicate (D263)</text>
+  <line x1="570" y1="156" x2="600" y2="156" stroke="#3498db" stroke-width="2.5" stroke-dasharray="4,6"/>
+  <text x="608" y="160" font-size="12" fill="#333">Soda-Lime Glass</text>
+  
+  <!-- Note -->
+  <text x="400" y="496" text-anchor="middle" font-size="9" fill="#999">(Original diagram © MUHWA Scientific — free to cite with attribution)</text>
+</svg>
